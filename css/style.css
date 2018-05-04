@@ -1,0 +1,10 @@
+body{
+    background: url("images/green_cup.png")
+}
+.bg-light{
+    background-color: #0a4784!important;
+}
+.btn-outline-success{
+    color: white;
+    border-color:#a5ab95;    
+}
