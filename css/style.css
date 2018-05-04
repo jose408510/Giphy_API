@@ -5,6 +5,22 @@ body{
     background-color: #0a4784!important;
 }
 .btn-outline-success{
-    color: white;
+    color: beige;
     border-color:#a5ab95;    
+}
+.btn-success {
+   background-color: #8baf2c;
+   color: black;
+   /* border-color: ;  */
+}
+.btn-danger {
+background-color:#8a73c1;
+color: black;
+border-color:#8a73c1;
+}
+.btn-primary{
+    color: black;
+}
+.btn-secondary{
+    color: black;
 }
