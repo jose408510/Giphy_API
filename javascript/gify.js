@@ -1,4 +1,4 @@
-    $('button').on('click', function() {
+$('button').on('click', function(event) {
 
     var animal = $(this).attr("data-animal");
 
@@ -46,6 +46,9 @@
 
     }
 });
+
+
+
 
 });
 
