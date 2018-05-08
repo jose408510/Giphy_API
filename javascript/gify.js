@@ -76,14 +76,17 @@ $(document).on('click','button', function() {
       $('#searchButton').on('click', function(event) {
         // Preventing the button from trying to submit the form
         event.preventDefault();
+
         // Storing the artist name
-        var inputStarWars = $('#searchAdd').val().trim();
+        var inputAnimals = $('#searchAdd').val().trim();
      
         var newButton = $('<button>');
 
-        newButton.text(inputStarWars);
+        newButton.text(inputAnimals);
+
+        newButton.addClass('styleing');
         
-        newButton.attr('data-animal', inputStarWars);
+        newButton.attr('data-animal', inputAnimals);
         
         $('#newButtons').append(newButton);
    

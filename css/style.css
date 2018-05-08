@@ -4,22 +4,19 @@ body{
 .bg-light{
     background-color: #0a4784!important;
 }
+.styleing{
+    color: black;
+    border-radius: 4px;
+    border-color: #0a4784;
+    background-color:#0a4784;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    font-size: 20px;
+}
 #searchButton{
-    /* color: beige; */
-    border-color:#a5ab95;    
-}
-.btn-success {
-   background-color: #8baf2c;
-   color: black;
-}
-.btn-danger {
-background-color:#8a73c1;
-color: black;
-border-color:#8a73c1;
-}
-.btn-primary{
     color: black;
-}
-.btn-secondary{
-    color: black;
+    background-color: darkseagreen;
+    border-color: darkseagreen;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
