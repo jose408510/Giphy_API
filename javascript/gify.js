@@ -1,4 +1,13 @@
-$('button').on('click', function(event) {
+var animalsArray = ["Cats","Dogs","Birds","Wolfs","Tigers","Lions","Chickens","Kangroos","elephants","Turtles"];
+
+for(var i = 0; i < animalsArray.lenght; i++){
+    var button = $('<button>');
+    button.text(animalsArray[i]);
+    button.attr('data-animal',animalsArray[i]);
+    $('#newButtons').append(button);
+}
+
+$(document).on('click','button', function() {
 
     var animal = $(this).attr("data-animal");
 
@@ -48,8 +57,6 @@ $('button').on('click', function(event) {
 });
 
 
-
-
 });
 
     $(document).on('click', '.clickMe', function(){
@@ -64,3 +71,21 @@ $('button').on('click', function(event) {
         }
       })
     
+      var inputAnimal = $('#searchAdd').val().trim();
+
+      $('#searchButton').on('click', function(event) {
+        // Preventing the button from trying to submit the form
+        event.preventDefault();
+        // Storing the artist name
+        var inputStarWars = $('#searchAdd').val().trim();
+     
+        var newButton = $('<button>');
+
+        newButton.text(inputStarWars);
+        
+        newButton.attr('data-animal', inputStarWars);
+        
+        $('#newButtons').append(newButton);
+   
+      })
+   

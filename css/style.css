@@ -4,8 +4,8 @@ body{
 .bg-light{
     background-color: #0a4784!important;
 }
-.btn-outline-success{
-    color: beige;
+#searchButton{
+    /* color: beige; */
     border-color:#a5ab95;    
 }
 .btn-success {
